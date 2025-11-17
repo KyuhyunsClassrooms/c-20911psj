@@ -9,8 +9,7 @@
 int main() {
     // 1️⃣ 단어 리스트
     const char *words[] = {
-        "apple", "grape", "lemon", "peach", "mango",
-        "chess", "smile", "train", "plane", "house"
+        "apple", "table", "chair", "light", "sound", "bread", "water", "sugar", "smile", "laugh", "plant", "stone", "grass", "cloud", "storm", "beach", "heart", "dream", "train", "plane", "house", "mouse", "earth", "flame", "black", "white", "green", "brown", "night", "sweet", "lemon", "mango", "peach", "grape", "world", "ocean", "music", "dance", "movie", "story", "magic", "ghost", "blood", "steel", "glass", "happy", "angry", "brave", "quiet", "noisy", "dress", "shirt", "pants", "shoes", "crown", "sword", "paint", "brush", "clock", "watch", "horse", "zebra", "tiger", "eagle", "shark", "whale", "camel", "sheep", "snake", "apple", "berry", "honey", "bread", "toast", "pizza", "curry", "sauce", "sugar", "spice", "chair", "couch", "floor", "stair", "table", "frame", "shelf", "light", "spark", "shine", "stone", "brick", "metal", "paper", "inked", "words", "write", "story", "novel", "think"
     };
     int word_count = sizeof(words) / sizeof(words[0]);
 
